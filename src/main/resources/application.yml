@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/dfsai_test
+    username: root
+    password: 0618
+mybatis:
+  mapper-locations: classpath:mapping/*Mapper.xml
+  type-aliases-package: com.dfsai.javaserver.pojo
+
+server:
+  port: 8080
